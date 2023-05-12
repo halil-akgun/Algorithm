@@ -1,0 +1,10 @@
+
+BubleSort
+
+en yavasi diyebiliriz
+
+
+ * TIME COMPLEXITY -->  O(n^2) -- selectionSort ve insertionSort dan daha yavasdir
+
+
+ * MEMORY USAGE --> 1 variable ( temp den dolayi )
