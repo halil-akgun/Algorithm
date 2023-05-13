@@ -1,6 +1,6 @@
-package Sorting_Algorithms.BubleSort;
+package Sorting_Algorithms.BubbleSort;
 
-public class BubleSort {
+public class BubbleSort {
 
     public static void bubleSort(int[] arr) {
 

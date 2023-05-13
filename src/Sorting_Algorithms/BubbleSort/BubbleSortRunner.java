@@ -1,8 +1,8 @@
-package Sorting_Algorithms.BubleSort;
+package Sorting_Algorithms.BubbleSort;
 
 import java.util.Arrays;
 
-public class BubleSortRunner {
+public class BubbleSortRunner {
     public static void main(String[] args) {
 
         int[] arr = {1, 2, 5, 9, 6, 3, 4};
@@ -10,7 +10,7 @@ public class BubleSortRunner {
         System.out.println(Arrays.toString(arr));
         System.out.println("******************");
 
-        BubleSort.bubleSort(arr);
+        BubbleSort.bubleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
 }
