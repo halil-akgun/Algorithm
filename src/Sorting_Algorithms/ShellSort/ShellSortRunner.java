@@ -6,7 +6,7 @@ public class ShellSortRunner {
 
     public static void main(String[] args) {
 
-        int[] arr = {3, 5, 4};
+        int[] arr = {5, 37, 43, 12, 3, 28, 4, 2, 33, 0};
 
         System.out.println("SSort oncesi Array :");
         System.out.println(Arrays.toString(arr));

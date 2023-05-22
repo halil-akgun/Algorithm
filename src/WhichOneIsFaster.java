@@ -12,8 +12,8 @@ public class WhichOneIsFaster {
 
     public static void main(String[] args) {
 
-//        int[] arr = createArray(10000000);
-        int[] arr = createOrderedArray(1000000);
+        int[] arr = createArray(300000);
+//        int[] arr = createOrderedArray(3000);
         int[] arr2 = Arrays.copyOf(arr, arr.length);
         int[] arr3 = Arrays.copyOf(arr, arr.length);
         int[] arr4 = Arrays.copyOf(arr, arr.length);
@@ -34,7 +34,7 @@ public class WhichOneIsFaster {
 //        System.out.println("InsertionSort : " + estimatedTime);
 
 
-        //SelectionSort
+//        SelectionSort
 //        startTime = System.currentTimeMillis();
 //        SelectionSort.selectionSort(arr2);
 //        endTime = System.currentTimeMillis();
@@ -42,8 +42,8 @@ public class WhichOneIsFaster {
 //        estimatedTime = (double) (endTime - startTime) / 1000;
 //        System.out.println("SelectionSort : " + estimatedTime);
 
-
-        //BubbleSort
+//
+////        BubbleSort
 //        startTime = System.currentTimeMillis();
 //        BubbleSort.bubleSort(arr3);
 //        endTime = System.currentTimeMillis();
@@ -52,9 +52,9 @@ public class WhichOneIsFaster {
 //        System.out.println("BubbleSort : " + estimatedTime);
 
 
-        //MergeSort
+//        //MergeSort
         startTime = System.currentTimeMillis();
-        MergeSort.mergeSort(arr4, 0, arr.length - 1);
+        MergeSort.mergeSort(arr4);
         endTime = System.currentTimeMillis();
 
         estimatedTime = (double) (endTime - startTime) / 1000;
@@ -78,15 +78,15 @@ public class WhichOneIsFaster {
         estimatedTime = (double) (endTime - startTime) / 1000;
         System.out.println("ShellSort : " + estimatedTime);
 
-
-        //ArraysSort
+//
+//        //ArraysSort
         startTime = System.currentTimeMillis();
         Arrays.sort(arr7);
         endTime = System.currentTimeMillis();
 
         estimatedTime = (double) (endTime - startTime) / 1000;
         System.out.println("ArraysSort : " + estimatedTime);
-
+//
 
     }
 
